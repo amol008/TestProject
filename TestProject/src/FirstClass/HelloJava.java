@@ -12,14 +12,15 @@ public class HelloJava {
 		Person obj2 = new Person(2,"Bmol","Kamble");
 		Person obj3 = new Person(3,"Cmol","Madavi");
 		List<Person> objPerson = new ArrayList<Person>();
-	    objPerson.add(obj1);
-	    objPerson.add(obj2);
-	    objPerson.add(obj3);
-	    
-	    for(Person obj:objPerson)
-	    {
-	    	System.out.println("first element = "+obj);
-	    }
+		objPerson.add(obj1);
+		objPerson.add(obj2);
+		objPerson.add(obj3);
+
+		for(Person obj:objPerson)
+		{
+			System.out.println("first element = "+obj);
+		}
+		System.out.println("End of for loop");
 	}
 
 }
